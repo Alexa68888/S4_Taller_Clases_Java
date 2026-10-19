@@ -18,3 +18,7 @@ public class Factura {
     public String obtenerNumeroPieza() {
         return numeroPieza;
     }
+    // Métodos establecer y obtener para descripción de pieza
+    public void establecerDescripcionPieza(String descripcionPieza) {
+        this.descripcionPieza = descripcionPieza;
+    }
