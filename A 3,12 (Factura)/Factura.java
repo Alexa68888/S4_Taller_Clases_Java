@@ -10,5 +10,7 @@ public class Factura {
         this.descripcionPieza = descripcionPieza;
         establecerCantidad(cantidad);
         establecerPrecioPorArticulo(precioPorArticulo);
-
 }
+    // Métodos establecer y obtener para número de pieza
+    public void establecerNumeroPieza(String numeroPieza) {
+        this.numeroPieza = numeroPieza;
