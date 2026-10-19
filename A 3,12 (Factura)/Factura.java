@@ -22,3 +22,15 @@ public class Factura {
     public void establecerDescripcionPieza(String descripcionPieza) {
         this.descripcionPieza = descripcionPieza;
     }
+    public String obtenerDescripcionPieza() {
+        return descripcionPieza;
+    }
+
+    // Métodos establecer y obtener para cantidad (con validación)
+    public void establecerCantidad(int cantidad) {
+        if (cantidad > 0) {
+            this.cantidad = cantidad;
+        } else {
+            this.cantidad = 0; // Si no es positivo, se establece en 0
+        }
+    }
