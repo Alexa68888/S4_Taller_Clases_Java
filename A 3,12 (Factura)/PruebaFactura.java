@@ -17,3 +17,6 @@ public static void main(String[] args) {
 
     System.out.print("Ingrese el precio por artículo: ");
     double precio = scanner.nextDouble();
+
+    // Se rear una instancia del objeto Factura
+    Factura miFactura = new Factura(numero, descripcion, cantidad, precio);
