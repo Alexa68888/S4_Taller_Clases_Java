@@ -45,3 +45,6 @@ public class Factura {
             this.precioPorArticulo = 0.0; // Si no es positivo, se establece en 0.0
         }
     }
+    public double obtenerPrecioPorArticulo() {
+        return precioPorArticulo;
+    }
