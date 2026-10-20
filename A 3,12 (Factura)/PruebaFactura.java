@@ -8,3 +8,6 @@ public static void main(String[] args) {
 
     System.out.print("Ingrese el número de pieza: ");
     String numero = scanner.nextLine();
+
+    System.out.print("Ingrese la descripción de la pieza: ");
+    String descripcion = scanner.nextLine();
