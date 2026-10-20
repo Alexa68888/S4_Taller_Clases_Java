@@ -48,3 +48,8 @@ public class Factura {
     public double obtenerPrecioPorArticulo() {
         return precioPorArticulo;
     }
+    // Método para calcular el monto total de la factura
+    public double obtenerMontoFactura() {
+        return cantidad * precioPorArticulo;
+    }
+}
