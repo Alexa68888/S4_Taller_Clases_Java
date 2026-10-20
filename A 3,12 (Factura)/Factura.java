@@ -37,3 +37,11 @@ public class Factura {
     public int obtenerCantidad() {
         return cantidad;
     }
+    // Métodos establecer y obtener para precio por artículo (con validación)
+    public void establecerPrecioPorArticulo(double precioPorArticulo) {
+        if (precioPorArticulo > 0.0) {
+            this.precioPorArticulo = precioPorArticulo;
+        } else {
+            this.precioPorArticulo = 0.0; // Si no es positivo, se establece en 0.0
+        }
+    }
