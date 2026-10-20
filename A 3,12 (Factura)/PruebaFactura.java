@@ -11,3 +11,6 @@ public static void main(String[] args) {
 
     System.out.print("Ingrese la descripción de la pieza: ");
     String descripcion = scanner.nextLine();
+
+    System.out.print("Ingrese la cantidad de artículos: ");
+    int cantidad = scanner.nextInt();
