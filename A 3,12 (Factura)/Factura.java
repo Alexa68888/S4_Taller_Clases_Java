@@ -34,3 +34,6 @@ public class Factura {
             this.cantidad = 0; // Si no es positivo, se establece en 0
         }
     }
+    public int obtenerCantidad() {
+        return cantidad;
+    }
