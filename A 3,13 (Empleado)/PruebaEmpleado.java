@@ -1,6 +1,4 @@
-package ejercicio2_empleado;
-
-import javax.swing.JOptionPane; // Importamos la librería para las ventanas
+import javax.swing.JOptionPane;
 
 public class PruebaEmpleado {
     public static void main(String[] args) {
@@ -25,7 +23,6 @@ public class PruebaEmpleado {
         mensaje += emp2.getPrimerNombre() + " " + emp2.getApellidoPaterno() + ": $" + emp2.calcularSalarioAnual() + "\n\n";
 
         // --- APLICAR AUMENTO DEL 10% ---
-        // Multiplicamos el salario actual por 1.10
         emp1.setSalarioMensual(emp1.getSalarioMensual() * 1.10);
         emp2.setSalarioMensual(emp2.getSalarioMensual() * 1.10);
 
@@ -34,7 +31,6 @@ public class PruebaEmpleado {
         mensaje += emp1.getPrimerNombre() + " " + emp1.getApellidoPaterno() + ": $" + emp1.calcularSalarioAnual() + "\n";
         mensaje += emp2.getPrimerNombre() + " " + emp2.getApellidoPaterno() + ": $" + emp2.calcularSalarioAnual();
 
-        // Mostrar todo en una ventana final
         JOptionPane.showMessageDialog(null, mensaje);
     }
 }
