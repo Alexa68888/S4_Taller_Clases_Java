@@ -14,3 +14,6 @@ public static void main(String[] args) {
 
     System.out.print("Ingrese la cantidad de artículos: ");
     int cantidad = scanner.nextInt();
+
+    System.out.print("Ingrese el precio por artículo: ");
+    double precio = scanner.nextDouble();
